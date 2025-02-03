@@ -1,4 +1,6 @@
 package com.wunnakyaw.qrgenerator.presentation.qr_detail
 
-class QRDetailViewModel {
+import androidx.lifecycle.ViewModel
+
+class QRDetailViewModel: ViewModel() {
 }
