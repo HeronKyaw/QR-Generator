@@ -36,7 +36,9 @@ fun AppRoutes(
         }
 
         composable(Routes.QR_DETAIL_SCREEN) {
-            QRDetailScreen()
+            QRDetailScreen(
+                isNew = true
+            )
         }
     }
 }

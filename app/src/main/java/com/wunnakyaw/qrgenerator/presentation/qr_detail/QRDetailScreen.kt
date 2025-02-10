@@ -6,5 +6,6 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 @Composable
 fun QRDetailScreen(
     viewModel: QRDetailViewModel = viewModel(),
+    isNew: Boolean,
 ) {
 }
